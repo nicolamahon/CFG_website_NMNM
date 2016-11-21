@@ -1,0 +1,143 @@
+body
+{	
+	background-color: #66ccff; /*teal-blue*/
+	background-image: url("../images/spatter1.jpg");
+	margin: 0 auto;
+}
+
+#welcome /* initial welcome div */
+{
+	background-color: #FFFFFF;
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	
+	border: 1px solid black;
+}
+
+
+h1	/* headings */
+{
+	background-color: #66ccff;
+	border: 1px solid black;
+}
+
+#header /* navigation div */
+{
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    background: #66ccff;
+    background-color: #66ccff;
+}
+
+#nav table /* navigation table  */
+{
+    width: 100% ;
+    font-family: comic sans ms;
+	background-color: #66ccff;
+}
+
+
+#nav a:link, a:visited  /* nav links  */
+{
+    display: inline-block;
+    height: 26px;
+    font-weight: bold;
+    font-size: 25px; 
+    color: #FFFFFF;
+    background-color: #66ccff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+	width: auto;
+}
+
+#container /* welcome, our mission */
+{
+	
+    text-align: center;
+	font-family:comic sans ms;
+	padding: 20px; 
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	font-size: 20px;
+	border: 5px;
+}
+
+
+#member_form /* sign up form and contact form */
+{
+	margin: 0 auto;
+}
+
+
+#endorse /* testimonials table */
+{
+    width:1000px;
+	padding-left: 150px;
+}
+
+#social /* social media */
+{
+	display: inline-block;
+}
+
+table 
+{
+	background-color: #FFFFFF;
+}
+
+#footer /* page footer */
+{
+    
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    padding:20px;	
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 20px;
+    border: 5px;
+}
+
+ul	/* bullet points, entire page */
+{
+    text-align: centre;
+}
+
+/* css for smaller browser windows */
+@media (max-width: 500px) {
+	
+h1 
+	{
+		font-size: 50px;
+		margin-top: 20px;
+		line-height: 40px;
+	}
+  
+h2 
+	{
+		font-size: 20px;
+		margin: 20px 0 30px 0;
+	}
+  
+p {
+		font-size: 20px;
+		line-height: 24px;
+	}
+  
+#map {
+        padding-left: 0px;
+    }
+	
+#endorse {
+        padding-left: 0px;
+    }
+	
+div 
+	{
+		margin: 20px 12px 0 12px;
+	}
+}
