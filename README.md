@@ -14,7 +14,7 @@ The website consisted of:
 -	an application form to allow potential interested parties to apply to use the service.
 -	a contact us section, centred on our fake office location in Dublin City.
 -	testimonials purporting that the services offered by the site were very successful and desirable, all fabricated by the project team!
--	links to social the company’s media profiles for Twitter and Facebook.
+-	links to the company’s social media profiles for Twitter and Facebook.
 
 Functionality 
 The site contents were held on a single webpage, with the use of anchors linked in the navigation bar at the top of the site, allowing the viewer to move around to the selected areas of the page. No server-side technologies were utilised in the implementation of the website as the project was a team effort, utilising the skills of beginner HTML team members, and it was decided that the design should reflect the collective skills of the group.
